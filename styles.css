@@ -46,6 +46,14 @@ nav ul li a:hover {
   text-decoration: underline;
   color: #3730a3;
 }
+.peach:hover,
+.sections:hover,
+.section2:hover {
+  background: coral;
+  transition-property: background, border-radius;
+  border-radius: 40%;
+  transition-duration: 2s;
+}
 .peach {
   background-color: #fef2f2;
   padding: 1rem;
