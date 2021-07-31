@@ -114,7 +114,31 @@ ol li a {
   margin: 0 10px;
   color: #9d174d;
 }
-
+.certificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.fa-linkedin {
+  background: #fff;
+  color: blue;
+  margin: 0;
+  padding;
+  }
+.fa-hackerrank{
+  background: #fff;
+  color: black;
+  }
+.fa-github-square{
+  background: white;
+  color: black;
+  }
+.fa-codepen{
+  background:black;
+  color: #fff;
+  }
 
 
 
