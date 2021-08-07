@@ -71,7 +71,7 @@ nav a:hover {
   padding: 1rem;
   text-align: center;
   letter-spacing: 1.5px;
-  font-size: 100%;
+  font-size: 120%;
 }
 .sections {
   padding: 1rem;
@@ -97,7 +97,7 @@ p {
 .section2 {
   padding: 1rem;
   background-color: #fef2f2;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 .footer {
   background-color: #fca5a5;
