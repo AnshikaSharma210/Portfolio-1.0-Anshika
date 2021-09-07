@@ -1,21 +1,22 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+body {
   margin: 0;
 }
 header {
   background-color: #fca5a5;
   height: 68px;
+  width: auto;
 }
 nav {
   padding: 3px;
 }
-nav ul{
+nav ul {
   display: flex;
   justify-content: center;
   padding: 3px 0;
-  }
+}
 nav li {
   list-style: none;
   margin: 2px 5px;
@@ -37,7 +38,7 @@ nav a:hover {
   transition: border-bottom 0.3s;
   font-size: 100%;
 }
-img{
+img {
   width: auto;
   height: auto;
 }
@@ -140,19 +141,19 @@ ol li a {
   background: #fff;
   color: blue;
   margin: 0;
-  }
+}
 .fa-hackerrank{
   background: #fff;
   color: black;
-  }
+}
 .fa-github-square{
   background: white;
   color: black;
-  }
+}
 .fa-codepen{
   background:black;
   color: #fff;
-  }
+}
 
 
 
