@@ -14,11 +14,11 @@ nav {
 nav ul {
   display: flex;
   justify-content: center;
-  padding: 0.2rem;
+  padding: 5px;
 }
 nav li {
   list-style: none;
-  margin: 2px 5px;
+  margin: 2px 10.5px;
   padding: 2px;
 }
 nav a {
@@ -41,7 +41,7 @@ nav a:hover {
   font-size: 100%;
 }
 .main-image {
-  max-width: 100%;
+  width: 300px;
 }
 .heading {
   text-decoration: wavy underline;
