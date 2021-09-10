@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 1rem;
+  margin: 10rem;
 }
 header {
   background-color: #fca5a5;
@@ -50,10 +50,10 @@ nav a:hover {
   text-align: center;
 }
 .intro {
-  width: 60%;
+  width: 50%;
   font-size: 20px;
-  margin: 1.5rem;
-  padding: 1rem;
+  margin: 1.5rem 2rem;
+  padding: 1rem 2rem;
   color: #3730a3;
   background: #bfdbfe;
   border: 3px solid;
@@ -76,14 +76,14 @@ nav a:hover {
   background-color: #fef2f2;
   padding: 1rem;
   text-align: center;
-  letter-spacing: 1.5px;
-  font-size: 120%;
+  letter-spacing: 1.2px;
+  font-size: 1.2rem;
 }
 .sections {
   padding: 1rem;
   background-color: #ecfdf5;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 section {
   display: block;
@@ -103,7 +103,7 @@ p {
 .section2 {
   padding: 1rem;
   background-color: #fef2f2;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .footer {
   background-color: #fca5a5;
