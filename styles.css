@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  margin: 10rem;
+  margin: 0;
 }
 header {
   background-color: #fca5a5;
@@ -41,7 +41,7 @@ nav a:hover {
   font-size: 100%;
 }
 .main-image {
-  max-width: 70%;
+  max-width: 100%;
 }
 .heading {
   text-decoration: wavy underline;
