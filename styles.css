@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  margin: 0
+}
 header {
   background-color: #fca5a5;
   height: 60px;
