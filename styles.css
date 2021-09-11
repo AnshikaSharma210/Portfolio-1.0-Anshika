@@ -61,7 +61,7 @@ main-image {
   font-weight: 50;
   padding: 0.5rem;
   width: 100%;
-  color: black;
+  color: #000000;
 }
 .peach:hover,
 .sections:hover,
