@@ -44,8 +44,8 @@ main-image {
 .intro {
   width: 50%;
   font-size: 20px;
-  margin: 30px;
-  padding: 15px;
+  margin: 20px;
+  padding: 1rem;
   color: #3730a3;
   background: #bfdbfe;
   border: 3px solid;
@@ -60,6 +60,7 @@ main-image {
 .sections:hover,
 .section2:hover {
   background: coral;
+  opacity: 40%;
   transition-property: background, border-radius;
   border-radius: 35%;
   transition-duration: 2s;
@@ -145,6 +146,22 @@ ol li a {
   background:black;
   color: #fff;
 }
+@media and (min-width: 480px) {
+  nav a {
+    font-size: 110%;
+  }
+  nava: hover {
+    font-size: 120%;
+  }
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+    icon-size: 5x;
+  }
+}
+
+  
 
 
 
