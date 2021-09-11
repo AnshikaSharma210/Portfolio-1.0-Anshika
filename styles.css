@@ -16,6 +16,9 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+nav {
+  padding: 3px;
+}
 nav li {
   list-style-type: none;
 }
