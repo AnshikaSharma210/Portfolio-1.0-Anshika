@@ -8,14 +8,11 @@ header {
 nav ul {
   display: flex;
   justify-content: center;
-  padding: 0;
-}
-nav {
   padding: 3px;
 }
 nav li {
   list-style-type: none;
-  margin: 10px;
+  margin: 20px 5px;
 }
 nav a {
   text-decoration: none;
