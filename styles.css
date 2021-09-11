@@ -7,13 +7,11 @@ body {
 }
 header {
   background-color: #fca5a5;
-  height: 68px;
-  width: auto;
+  height: 60px;
 }
 nav ul {
   display: flex;
   justify-content: center;
-  margin: 0;
   padding: 0;
 }
 nav {
@@ -21,6 +19,7 @@ nav {
 }
 nav li {
   list-style-type: none;
+  margin: 10px;
 }
 nav a {
   text-decoration: none;
