@@ -58,7 +58,6 @@ main-image {
 .sections:hover,
 .section2:hover {
   background: coral;
-  opacity: 70%;
   transition-property: background, border-radius;
   border-radius: 35%;
   transition-duration: 2s;
