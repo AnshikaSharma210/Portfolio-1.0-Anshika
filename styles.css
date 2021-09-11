@@ -8,7 +8,7 @@ header {
 nav ul {
   display: flex;
   justify-content: center;
-  padding: 2px;
+  padding: 0 2px;
 }
 nav li {
   list-style-type: none;
