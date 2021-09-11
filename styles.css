@@ -10,12 +10,16 @@ header {
   height: 68px;
   width: auto;
 }
+nav {
+  margin: 10px;
+}
 nav ul {
   display: flex;
   justify-content: center;
 }
 nav li {
-  list-style: none;
+  list-style-type: none;
+  margin: 10px;
 }
 nav a {
   text-decoration: none;
@@ -25,7 +29,6 @@ nav a {
   font-size: 90%;
   font-weight: 600;
   margin: 15px 5px;
-  padding: 5px 10px;
 }
 nav a:hover {
   border-bottom: 2px solid #1b1b1b;
@@ -119,7 +122,6 @@ ol li {
 }
 ol li a {
   text-decoration: none;
-  padding: 5px;
   margin: 10px;
   color: #9d174d;
 }
@@ -133,7 +135,6 @@ ol li a {
 .fa-linkedin {
   background: #fff;
   color: blue;
-  margin: 0;
 }
 .fa-hackerrank{
   background: #fff;
