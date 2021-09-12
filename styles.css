@@ -77,13 +77,13 @@ main-image {
   padding: 1rem;
   text-align: center;
   letter-spacing: 1.2px;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 .sections {
   padding: 1rem;
   background-color: #ecfdf5;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 section {
   display: block;
@@ -103,7 +103,7 @@ p {
 .section2 {
   padding: 1rem;
   background-color: #fef2f2;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 .footer {
   background-color: #fca5a5;
@@ -135,7 +135,7 @@ ol li a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 15px;
 }
 .fa-linkedin {
   background: #fff;
