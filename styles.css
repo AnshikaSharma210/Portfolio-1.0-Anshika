@@ -59,9 +59,10 @@ main-image {
 }
 .speciality {
   font-weight: 50;
-  padding: 0.5rem;
+  padding: 0;
   width: 100%;
   color: #000000;
+  text-align: center;
 }
 .peach:hover,
 .sections:hover,
