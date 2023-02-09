@@ -1,115 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset='utf-8'>
-        <meta http-eqiv= "X-UA-Compatible" content="IE=edge">
-        <meta name= "viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    Portfolio-Anshika Sharma
-  </title>
-        <link rel="stylesheet" type="text/css" href="https://github.com/AnshikaSharma210/AnshikaSharma210.github.io/blob/main/styles.css">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="https://kit.fontawesome.com/8c6bdc9ddb.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Anshika Sharma</title>
+  </head>
+  <body>
+    <!-- Nav Bar -->
     <div>
-      <nav>
-        <ul>
-          <li><a href="#Aboutme">About </a></li>
-          <li><a href="#internships">Internships</a></li>
-          <li><a href="#certification">Certification </a></li>
-          <li><a href="#ContactMe">Contact</a></li>
+      <nav class="navbar">
+        <ul class="navigationcon">
+          <li><a href="#home" class="menu">Home </a></li>
+          <li><a href="#portfolio" class="menu">Projects</a></li>
+          <li><a href="#achievements" class="menu">Achievements</a></li>
+          <li><a href="#contacts" class="menu">Contact</a></li>
         </ul>
       </nav>
     </div>
-  </header>
-  <br>
-  <center class="main-image">
-    <img src="https://i.ibb.co/YhHWDYY/undraw-Dev-focus-re-6iwt.png" alt="undraw-Dev-focus-re-6iwt" border="0" width="300px">
-  </center>
-  <br>
-  <center>
-    <h1 class="heading">Welcome to My Portfolio</h1>
-    <br>
-    <div class="intro">
-      <p>
-      <h2 class="name">Anshika Sharma </h2><br>
-      <h5 class="speciality">Java|Python|MySql|Web developer </h5>
-      </p>
-    </div>
-  </center>
-  <br><br>
-
-  <section class="peach">
-    <div class="container container-center">
-      <div id="Aboutme">
-        <h1>About Me</h1>
+    <!-- landing page -->
+    <div class="landing" id="home">
+      <div id="hometext">
+        <p class="textpos" id="hello">HELLO</p>
+        <p class="textpos" id="name">
+          I'M ANSHIKA <br />
+          SHARMA
+        </p>
+        <p class="textpos" id="introline">
+          <br />
+          A student of Bharati Vidyapeeth University, currently pursuing my
+          B.Tech in Electronics and Communication Engineering. I have holistic
+          knowledge of Full-Stack Development, UI/UX Design and experience in
+          Content Writing.
+        </p>
+        <br />
+        <button class="textpos" id="resume">Download Resume</button>
       </div>
-      <p>
-        I am a B.Tech 3<sup>rd </sup>year undergrad from BV(DU)COE,Pune. I have completed my higher education from Patna with 95.5% & 92.4% in 10<sup>th</sup> & 12<sup>th</sup> respectively.<br>I have a knack for coding & have significantly enhanced my coding skills in Java, Python, MySql & C.<br> Besides coding, I like reading books(Harry Potter being my all-time favorite:)). Since my school days , I have been an athlete and an efficient leader as well.
-      </p>
-    </div>
-  </section>
-  <section class="sections">
-    <div class="container container-center">
-      <div id="internships">
-        <h1>Internships</h1>
-      </div>
-      <p>
-        <u><em><strong> @Rendezvous-IIT Delhi</strong></em></u><br>
-        Campus Ambassador intern <br><br>
-        <u><em> <strong> @Muskurahat Foundation</strong></em></u><br>
-        Fundraiser intern<br>
-        <br>
-        <u><em><strong> @Internshala</strong></em></u><br>Internshala Student Partner<br><br>
-      </p>
-      <br>
-    </div>
-  </section>
-  <section class="section2">
-    <div class="container container-center">
-      <div id="certification">
-        <h1><u>Certification & Achievements</u></h1>
-      </div>
-      <ol class= "certificate">
-        <li>
-          <h4><b>•Cloud Computing & Distributed Systems </b></h4>by NPTEL & IIT-Kanpur
-        </li><br>
-        <li>
-          <h4><b>•Programming with Python</b></h4> by Guvi
-        </li><br>
-        <li>
-          <h4><b>•Web Development Bootcamp </b></h4>by Sudan's Technocrats
-        </li><br>
-        <li>
-          <h4><b>•Game development using PyGame</b></h4> by Guvi
-        </li><br>
-        <li>
-          <h4><b>• Gold badge for Java</b></h4> on HackerRank
-        </li><br>
-        <li>
-          <h4><b>•Web Dev Bootcamp with React JS & JavaScript</b></h4> by ShapeAI, GDG-Ranchi & DSC-BIT Mesra
-        </li><br>
-      </ol>
-    </div>
-  </section>
-<footer class="footer">
-    <div class="footer-header">
-      <div id="ContactMe">
-        <h1>Contact</h1>
+      <div id="face">
+        <img src="anshika.png" alt="Error Loading" id="images" />
       </div>
     </div>
-    <ol class="contact">
-      <li><a href="https://www.linkedin.com/in/anshika-sharma-210" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a></li>
-      <li><a href="https://www.hackerrank.com/anshikasja" target="_blank"><i class="fab fa-hackerrank fa-3x"></i> </a></li>
-      <li><a href="https://github.com/AnshikaSharma210" target="_blank"><i class="fab fa-github-square fa-3x"></i></a></li>
-      <li><a href="https://codepen.io/anshikasharma210" target="_blank">
-          <i class="fab fa-codepen fa-3x"></i> </a></li>
-    </ol>
-    <br><br>
-    <center class="copyright"> © All rights reserved </center>
-    <br>
-  </footer>
-</body>
+    <!-- skills -->
+    <div class="portfoliosec" id="portfolio">
+      <p class="skills">Skills</p>
+      <div class="skillview">
+        <div class="container">
+          <div class="design">
+            <img src="frontend 2.png" class="img1" alt="" />
+            <p class="skilltext">Frontend Development</p>
+          </div>
+          <div class="design">
+            <img src="reactjs 2.png" class="img1" alt="" />
+            <p class="skilltext">ReactJS</p>
+          </div>
+          <div class="design">
+            <img src="node 1.png" class="img1" alt="" />
+            <p class="skilltext">NodeJS</p>
+          </div>
+          <div class="design">
+            <img src="mongodb 2.png" class="img1" alt="" />
+            <p class="skilltext">MongoDB</p>
+          </div>
+        </div>
+        <div class="container2">
+          <div class="design">
+            <img src="mysql (1) 1.png" class="img1" alt="" />
+            <p class="skilltext">MySQL</p>
+          </div>
+          <div class="design">
+            <img src="java 2.png" class="img1" alt="" />
+            <p class="skilltext">JAVA</p>
+          </div>
+          <div class="design">
+            <img src="python (1) 1.png" class="img1" alt="" />
+            <p class="skilltext">Python</p>
+          </div>
+          <div class="design">
+            <img src="iot 1.png" class="img1" alt="" />
+            <p class="skilltext">Internet of Things</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects  -->
+    <div class="projects" id="projects">
+      <h2 class="skills">Projects</h2>
+      <br /><br /><br />
+      <div class="container5">
+        <div class="projcont">
+          <img
+            class="projimg"
+            src="landing.png"
+            alt=""
+            srcset=""
+          /><br /><br /><br />
+          <p class="projdes">
+            A landing page based on Nike, designed using purely HTML & CSS.
+          </p>
+          <br /><br />
+          <a
+            href="https://anshikasharma210.github.io/Landing-page/"
+            target="_blank"
+            class="projtext"
+            >Click to View</a
+          >
+        </div>
+        <div class="projcont">
+          <img
+            class="projimg"
+            src="portfol.png"
+            alt=""
+            srcset=""
+          /><br /><br /><br />
+          <p class="projdes">
+            A portfolio website that gives information & description about me.
+          </p>
+          <br /><br />
+          <a href="" class="projtext">Click to View</a>
+        </div>
+        <div class="projcont">
+          <img
+            class="projimg"
+            src="undercon.png"
+            alt=""
+            srcset=""
+          /><br /><br /><br />
+          <p class="projdes">
+            A temperature converter that converts Celcius to Fahrenheit &
+            vice-versa.
+          </p>
+          <br /><br />
+          <a href="" class="projtext">Coming Soon...</a>
+        </div>
+      </div>
+    </div>
+    <!-- achieve,emts -->
+    <div class="achievementssec" id="achievements">
+      <h3 class="head">Achievements</h3>
+      <div class="achbox">
+        <img src="oasis.png" class="achievement" alt="" />
+        <ul class="posntitle">
+          Web Development Intern (Oasis Infobyte)
+          <li class="posndes">
+            Performed various levels of tasks assigned as a Web Development and
+            Designing intern. Started with as basic as a landing page and now
+            working on a fully functional Web-based App.
+          </li>
+        </ul>
+      </div>
+      <div class="achbox">
+        <img src="klique.png" class="achievement" alt="" />
+        <ul class="posntitle">
+          Co-Founder (KliqueStart)
+          <li class="posndes">
+            Co-Founded KliqueStart, an ideation incubation community, that helps
+            people build their idea into a venture using our resources and
+            mentorship. For more details, visit
+            <a href="www.kliquestart com" id="kliquelink"
+              ><strong> www.kliquestart.com </strong></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="achbox">
+        <img src="gdsc.png" class="achievement" alt="" />
+        <ul class="posntitle">
+          Technical Team Member (GDSC BVP)
+          <li class="posndes">
+            Worked as a member of the Technical team of GDSC BVP, Pune.
+            Organized and managed various technical events conducted in the
+            college as well as in Pune.
+          </li>
+        </ul>
+      </div>
+      <div class="achbox">
+        <img src="girlscript.png" class="achievement" alt="" />
+        <ul class="posntitle">
+          Summer of Code Contributor (Girlscript)
+          <li class="posndes">
+            Participated in Girlscript Summer of Code as a contributor and
+            learnt what open-source is all about. Contributed to various
+            repositories and networked with fellow contributors as well.
+          </li>
+        </ul>
+      </div>
+      <div class="achbox">
+        <img src="edc 1.png" class="achievement" alt="" />
+        <ul class="posntitle">
+          Public Relations Head (EDC BV(DU)COEP)
+          <li class="posndes">
+            Joined E-cell of my college as a Jr. Public Relations & Tech
+            Associate. Got promoted to Sr. Publications Associate & then became
+            the Head of Public Relations domain. Got the chance to interview &
+            network with economists, Bureaucrats, Founder of Starbucks, Dr.
+            Kiran Bedi, etc.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div id="contacts">
+      <h2 class="headings">Contact Me</h2>
+      <br /><br /><br />
+      <div class="contact">
+        <div class="conform">
+          <form
+            class="conbox"
+            action="https://formsubmit.co/anshikasja@gmail.com"
+            method="post"
+          >
+            <div>
+              <input
+                type="text"
+                placeholder="Name"
+                name="name"
+                class="textbox"
+              />
+            </div>
+            <br /><br />
+            <div>
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                class="textbox"
+              />
+            </div>
+            <br /><br />
+            <div>
+              <input
+                type="text"
+                placeholder="Subject"
+                name="Subject"
+                class="textbox"
+              />
+            </div>
+            <br /><br />
+            <div>
+              <textarea
+                name="message"
+                placeholder="Message"
+                class="textbox"
+                cols="30"
+              ></textarea>
+            </div>
+            <br />
+            <button id="sendbtn">Send</button>
+            <input type="hidden" name="_captcha" value="false" /><input
+              type="hidden"
+              name="_next"
+              value="http://anshika-sharma-210.github.io/#contacts"
+            />
+          </form>
+        </div>
+        <div class="supercontain">
+          <div class="concontain">
+            <div class="info">
+              <p class="mailmob" id="mailid">Email: anshikasja@gmail.com</p>
+              <p class="mailmob">Mobile No: +91 84340 05429</p>
+            </div>
+            <div class="conicon">
+              <div class="hyperlinks">
+                <a
+                  href="https://www.linkedin.com/in/anshika-sharma-210"
+                  target="_blank"
+                  class="linktext"
+                >
+                  <img src="linkedin.svg" alt="Er" class="imglo" /></a
+                ><br />
+              </div>
+              <div class="hyperlinks">
+                <a
+                  href="https://github.com/AnshikaSharma210"
+                  target="_blank"
+                  class="linktext"
+                  ><img src="github.svg" alt="Er" class="imglo" /></a
+                ><br />
+              </div>
+              <div class="hyperlinks">
+                <a
+                  href="https://www.hackerrank.com/anshikasja"
+                  target="_blank"
+                  class="linktext"
+                  ><img src="hackerrank.svg" alt="Er" class="imglo"
+                /></a>
+              </div>
+              <div class="hyperlinks">
+                <a
+                  href="https://codepen.io/anshikasharma210"
+                  target="_blank"
+                  class="linktext"
+                  ><img src="codepen.svg" alt="Er" class="imglo"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
