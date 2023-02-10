@@ -365,7 +365,14 @@ textarea {
 /* media query begins */
 /* Query for Tablet changes */
 @media  screen and (max-width: 768px) {
-    .landing{
+    
+  nav{
+    height: 7%;
+  }
+  .navigationicon{
+    padding: 2% 3%;
+  }
+  .landing{
         flex-direction: column-reverse;
     }
     #hello{
@@ -427,6 +434,17 @@ padding: 10%;
 @media  screen and (max-width: 555px) {
     nav{
         font-size:15px;
+        height: 4%;
+    }
+    nav ul{
+      padding-top: 1.5%;
+    }
+    .head, .headings{
+      margin-top: 5%;
+      font-size:260%;
+    }
+    .skills, .projects{
+      margin-top:5%;
     }
     #hello{
         font-size:110%;
