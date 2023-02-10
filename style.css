@@ -410,7 +410,7 @@ textarea {
 }
 .contact {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .conform, .conbox, .supercontain, .concontain{
     width: 100%;
@@ -435,9 +435,14 @@ padding: 10%;
     nav{
         font-size:15px;
         height: 4%;
+        position: absolute;
     }
     nav ul{
       padding-top: 1.5%;
+      flex-direction: row;
+    }
+    .landing{
+      margin-top: 20%;
     }
     .head, .headings{
       margin-top: 5%;
