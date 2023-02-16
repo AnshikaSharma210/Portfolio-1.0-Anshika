@@ -95,6 +95,9 @@ nav a {
   cursor: pointer;
   transform: scale(1.05);
 }
+#downloadbutton{
+  text-decoration: none;
+}
 #face {
   display: flex;
   flex-wrap: wrap;
